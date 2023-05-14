@@ -1,5 +1,5 @@
 name: workflow2
-  on:
+on:
      push:
        branches: [ "main" ]
 
