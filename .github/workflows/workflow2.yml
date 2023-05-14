@@ -1,0 +1,16 @@
+name: workflow2
+  on:
+     push:
+       branches: [ "main" ]
+
+jobs:
+   vipul-job2:
+      runs-on: ubuntu-latest
+
+      steps:
+     
+       - uses: actions/checkout@v3
+
+       - name: Run a one-line script
+         run: echo Hello, world!
+             
