@@ -20,5 +20,7 @@ jobs:
    vipul-job3:
       runs-on: ubuntu-latest
       steps:
-       -name: run single line
-        run: echo "$USERNAME"            
+      #  - uses: actions/checkout@v3
+
+       - name: run single line
+         run: echo "$USERNAME"            
