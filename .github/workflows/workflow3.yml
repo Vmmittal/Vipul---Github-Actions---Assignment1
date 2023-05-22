@@ -4,7 +4,7 @@ on:
        branches: [ "main" ]
 jobs:
    vipul-job2:
-      runs-on: self-hosted
+      runs-on: ubuntu-latest
       env:
         USERNAME: Vipul
       steps:
