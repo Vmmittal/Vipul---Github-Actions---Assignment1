@@ -1,0 +1,13 @@
+name: workflow3
+on:
+     push:
+       branches: [ "main" ]
+jobs:
+   vipul-job2:
+      runs-on: self-hosted
+      env:
+        USERNAME: Vipul
+      steps:
+       - uses: actions/checkout@v3
+       - name: Run a one-line script
+         run: echo hello "$USERNAME" 
