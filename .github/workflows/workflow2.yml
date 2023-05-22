@@ -7,7 +7,7 @@ env:
    DAY: Monday
 jobs:
    vipul-job2:
-      runs-on: ubuntu-latest
+      runs-on: self-hosted
       env:
         USERNAME: Vipul
       steps:
@@ -17,10 +17,10 @@ jobs:
        - name: Run a one-line script
          run: echo "$USERNAME" today is "$DAY"
 
-   vipul-job3:
-      runs-on: ubuntu-latest
-      steps:
-      #  - uses: actions/checkout@v3
+  #  vipul-job3:
+  #     runs-on: ubuntu-latest
+  #     steps:
+  #     #  - uses: actions/checkout@v3
 
-       - name: run single line
-         run: echo "$USERNAME"            
+  #      - name: run single line
+  #        run: echo "$USERNAME"            
