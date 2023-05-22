@@ -1,7 +1,8 @@
 name: workflow3
 on:
-     push:
-       branches: [ "main" ]
+    #  push:
+    #    branches: [ "main" ]
+       workflow_dispatch:
 jobs:
    vipul-job2:
       runs-on: self-hosted
