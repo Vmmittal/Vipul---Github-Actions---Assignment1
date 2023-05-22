@@ -17,10 +17,4 @@ jobs:
        - name: Run a one-line script
          run: echo "$USERNAME" today is "$DAY"
 
-  #  vipul-job3:
-  #     runs-on: ubuntu-latest
-  #     steps:
-  #     #  - uses: actions/checkout@v3
-
-  #      - name: run single line
-  #        run: echo "$USERNAME"            
+            
